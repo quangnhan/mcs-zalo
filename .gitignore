@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+*.sqlite3
+*.log
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# pipenv / poetry / venv
+Pipfile.lock
+poetry.lock
+.venv/
+venv/
+ENV/
+env/
+*.venv/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# Firebase credentials
+firebase-credentials.json
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.cache
+
+# Test outputs
+junitxml/
+.pytest_cache/
+tests/__pycache__/
+
+# MyPy
+.mypy_cache/
+
+# FastAPI Swagger docs cache (if generated)
+openapi.json
+
+# Docker
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
